@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231103175052">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__wrapper">
+					<div class="header__top top-header">
+						<div class="top-header__row">
+							<a href="#" class="top-header__logo logo">
+								<picture>
+									<source srcset="img/logo-mob.svg" media="(max-width:767.98px)">
+									<img src="img/logo.svg" alt="logo">
+								</picture>
+							</a>
+							<div class="top-header__content">
+								<a href="tel:+73912020044" class="top-header__tel">+7 391 202 00 44</a>
+								<button data-da=".menu__body, 991.98, 0" data-popup="#region" class="top-header__region">Челябинск</button>
+								<button data-da=".menu__body, 991.98, 0" data-popup="#popup" class="top-header__btn btn">Оставить заявку</button>
+							</div>
+						</div>
+					</div>
+					<div class="header__bottom">
+						<div class="header__menu menu">
+							<div class="menu__icon-wrap"><button type="button" class="menu__icon icon-menu"><span></span></button></div>
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="" class="menu__link">Займ под ПТС</a>
+									</li>
+									<li class="menu__item">
+										<a href="" class="menu__link">Займ под авто</a>
+									</li>
+									<li class="menu__item">
+										<a href="" class="menu__link">Займ под спецтехнику</a>
+									</li>
+									<li class="menu__item">
+										<a href="" class="menu__link">Займ под недвижимость</a>
+									</li>
+									<li class="menu__item">
+										<a href="" class="menu__link">Рефинансирование займа (перезалог)</a>
+									</li>
+									<li class="menu__item">
+										<a href="" class="menu__link">Займ для бизнеса</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main-section main-section">
+				<div class="main-section__container">
+					<div class="main-section__gird">
+						<div class="main-section__big">
+							<h1 class="main-section__main-title">Займ под ПТС</h1>
+							<ul class="main-section__list">
+								<li class="main-section__li">
+									до 5 000 000 рублей
+								</li>
+								<li class="main-section__li">
+									оценка авто онлайн
+								</li>
+								<li class="main-section__li">
+									получение денег за час
+								</li>
+							</ul>
+							<div class="main-section__bottom-row">
+								<button data-popup="#popup" class="main-section__btn btn">Онлайн-заявка</button>
+								<div class="main-section__image">
+									<picture><source srcset="img/main-section/image-01.webp" type="image/webp"><img src="img/main-section/image-01.png" alt="image"></picture>
+								</div>
+							</div>
+						</div>
+						<div class="main-section__sr">
+							<div class="main-section__title">
+								Онлайн
+								<span>Калькулятор</span>
+							</div>
+							<button data-goto="#calculation" class="main-section__btn btn">Рассчитать займ</button>
+						</div>
+						<div class="main-section__small">
+							<div class="main-section__image-ibg">
+								<picture><source srcset="img/main-section/image-02.webp" type="image/webp"><img src="img/main-section/image-02.jpg" alt="image"></picture>
+							</div>
+							<div class="main-section__subtitle">Займ под спецтехнику</div>
+							<a href="#" class="main-section__btn btn">Подробнее</a>
+						</div>
+						<div class="main-section__small">
+							<div class="main-section__image-ibg">
+								<picture><source srcset="img/main-section/image-03.webp" type="image/webp"><img src="img/main-section/image-03.jpg" alt="image"></picture>
+							</div>
+							<div class="main-section__subtitle">Займ под недвижимость</div>
+							<a href="#" class="main-section__btn btn">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="calculation" class="page__calculation calculation">
+				<div class="calculation__container">
+					<div class="calculation__row">
+						<div class="calculation__content">
+							<h2 class="calculation__title title">
+								Расчет займа
+							</h2>
+							<div class="calculation__text text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</div>
+						</div>
+						<div class="calculation__form form-calculation">
+							<div class="form-calculation__row">
+								<div class="form-calculation__total">
+									<div class="form-calculation__range range-calculation">
+										<div class="range-calculation__title">
+											Сумма займа
+										</div>
+										<div class="range-calculation__item _sum"></div>
+										<div class="range-calculation__input">
+											<input type="number" class="_sum-count" value="15000">
+										</div>
+									</div>
+									<div class="form-calculation__range range-calculation">
+										<div class="range-calculation__title">
+											Срок займа
+										</div>
+										<div class="range-calculation__item _time"></div>
+										<div class="range-calculation__input">
+											<input type="number" class="_time-count" value="2">
+											<span class="_input-time">Года</span>
+										</div>
+									</div>
+								</div>
+								<div class="form-calculation__inputs">
+									<div class="form-calculation__name">
+										<input type="text" placeholder="Ваше имя" class="input">
+									</div>
+									<div class="form-calculation__name">
+										<input type="text" placeholder="Ваш телефон" class="input input_tel">
+									</div>
+									<button class="form-calculation__btn btn">
+										Онлайн-заявка
+									</button>
+									<div class="form-calculation__privacy">
+										<span>Согласен с <a href="#">политикой обработки</a> персональных данных</span>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__seo seo">
+				<div class="seo__container">
+					<h2 class="seo__title title">
+						SEO Блок
+					</h2>
+					<div class="seo__text text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+						aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+						aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem
+						ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+						enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum
+						dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					</div>
+				</div>
+			</section>
+			<section class="page__questions questions">
+				<div class="questions__container">
+					<h2 class="questions__title title">Отвечаем на вопросы</h2>
+					<div data-spollers class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">
+								<span>Вопрос номер один</span>
+								<span class="spollers__icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+										<path d="M16 1L16 31" stroke="#DB4444" stroke-width="2" stroke-linecap="round" />
+										<path d="M1 16L31 16" stroke="#DB4444" stroke-width="2" stroke-linecap="round" />
+									</svg>
+								</span>
+							</button>
+							<div class="spollers__body text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">
+								<span>Вопрос номер один</span>
+								<span class="spollers__icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+										<path d="M16 1L16 31" stroke="#DB4444" stroke-width="2" stroke-linecap="round" />
+										<path d="M1 16L31 16" stroke="#DB4444" stroke-width="2" stroke-linecap="round" />
+									</svg>
+								</span>
+							</button>
+							<div class="spollers__body text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+								magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">
+								<span>Вопрос номер один</span>
+								<span class="spollers__icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+										<path d="M16 1L16 31" stroke="#DB4444" stroke-width="2" stroke-linecap="round" />
+										<path d="M1 16L31 16" stroke="#DB4444" stroke-width="2" stroke-linecap="round" />
+									</svg>
+								</span>
+							</button>
+							<div class="spollers__body text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+								magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">
+								<span>Вопрос номер один</span>
+								<span class="spollers__icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+										<path d="M16 1L16 31" stroke="#DB4444" stroke-width="2" stroke-linecap="round" />
+										<path d="M1 16L31 16" stroke="#DB4444" stroke-width="2" stroke-linecap="round" />
+									</svg>
+								</span>
+							</button>
+							<div class="spollers__body text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+								magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__form-section section-form">
+				<div class="section-form__container">
+					<div class="section-form__body">
+						<div class="section-form__row">
+							<div class="section-form__content">
+								<h2 class="section-form__title">
+									Задайте свой вопрос
+								</h2>
+								<div class="section-form__text text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+									aliqua
+								</div>
+							</div>
+							<div class="section-form__form">
+								<div class="section-form__textarea">
+									<textarea placeholder="Ваш вопрос"></textarea>
+								</div>
+								<div class="section-form__form-block">
+									<div class="section-form__input">
+										<input type="text" class="input" placeholder="Ваше имя">
+									</div>
+									<div class="section-form__input">
+										<input type="text" class="input input_tel" placeholder="Ваш телефон">
+									</div>
+									<button class="section-form__btn btn">Получить ответ</button>
+									<div class="section-form__privacy">
+										<span>Согласен с <a href="#">политикой обработки</a> персональных данных</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__reviews reviews">
+				<div class="reviews__container">
+					<h2 class="reviews__title title">
+						Отзывы о нашей работе
+					</h2>
+					<div class="reviews__slider swiper">
+						<div class="reviews__wrapper swiper-wrapper">
+							<div class="reviews__slide review swiper-slide">
+								<div class="review__row">
+									<div data-da=".review__bottom-block_1, 479.98, 0" class="review__avatar">
+										<picture><source srcset="img/reviews/image-01.webp" type="image/webp"><img src="img/reviews/image-01.jpg" alt="avatar"></picture>
+									</div>
+									<div class="review__content">
+										<div class="review__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+											aliqua. Ut enim ad minim veniam.
+										</div>
+										<div class="review__bottom-block review__bottom-block_1">
+											<div class="review__info">
+												<div class="review__name">Иван Иванов</div>
+												<div class="review__bottom">Займ под авто</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews__slide review swiper-slide">
+								<div class="review__row">
+									<div data-da=".review__bottom-block_2, 479.98, 0" class="review__avatar">
+										<picture><source srcset="img/reviews/image-01.webp" type="image/webp"><img src="img/reviews/image-01.jpg" alt="avatar"></picture>
+									</div>
+									<div class="review__content">
+										<div class="review__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+											et dolore magna
+											aliqua. Ut enim ad minim veniam.
+										</div>
+										<div class="review__bottom-block review__bottom-block_2">
+											<div class="review__info">
+												<div class="review__name">Иван Иванов</div>
+												<div class="review__bottom">Займ под авто</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews__slide review swiper-slide">
+								<div class="review__row">
+									<div data-da=".review__bottom-block_3, 479.98, 0" class="review__avatar">
+										<picture><source srcset="img/reviews/image-01.webp" type="image/webp"><img src="img/reviews/image-01.jpg" alt="avatar"></picture>
+									</div>
+									<div class="review__content">
+										<div class="review__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+											et dolore magna
+											aliqua. Ut enim ad minim veniam.
+										</div>
+										<div class="review__bottom-block review__bottom-block_3">
+											<div class="review__info">
+												<div class="review__name">Иван Иванов</div>
+												<div class="review__bottom">Займ под авто</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews__slide review swiper-slide">
+								<div class="review__row">
+									<div data-da=".review__bottom-block_4, 479.98, 0" class="review__avatar">
+										<picture><source srcset="img/reviews/image-01.webp" type="image/webp"><img src="img/reviews/image-01.jpg" alt="avatar"></picture>
+									</div>
+									<div class="review__content">
+										<div class="review__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+											et dolore magna
+											aliqua. Ut enim ad minim veniam.
+										</div>
+										<div class="review__bottom-block review__bottom-block_4">
+											<div class="review__info">
+												<div class="review__name">Иван Иванов</div>
+												<div class="review__bottom">Займ под авто</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="reviews__pagination slider-pagination"></div>
+					</div>
+				</div>
+			</section>
+			<section class="page__other other other_home">
+				<div class="other__container">
+					<h2 class="other__title title">
+						Другие варианты займа
+					</h2>
+					<div class="other__grid">
+						<div class="other__item item-other">
+							<div class="item-other__content">
+								<h4 class="item-other__title">
+									Займ под недвижимость
+								</h4>
+								<div class="item-other__text text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+									aliqua
+								</div>
+								<a href="#" class="item-other__btn btn">Подробнее</a>
+							</div>
+							<div class="item-other__image">
+								<picture><source srcset="img/other/image-01.webp" type="image/webp"><img src="img/other/image-01.png" alt="image"></picture>
+							</div>
+						</div>
+						<div class="other__item item-other">
+							<div class="item-other__content">
+								<h4 class="item-other__title">
+									Займ под спецтехнику
+								</h4>
+								<div class="item-other__text text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+									magna
+									aliqua
+								</div>
+								<a href="#" class="item-other__btn btn">Подробнее</a>
+							</div>
+							<div class="item-other__image">
+								<picture><source srcset="img/other/image-02.webp" type="image/webp"><img src="img/other/image-02.png" alt="image"></picture>
+							</div>
+						</div>
+						<div class="other__item item-other">
+							<div class="item-other__content">
+								<h4 class="item-other__title">
+									Рефинансирование (перезалог)
+								</h4>
+								<div class="item-other__text text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+									magna
+									aliqua
+								</div>
+								<a href="#" class="item-other__btn btn">Подробнее</a>
+							</div>
+							<div class="item-other__image">
+								<picture><source srcset="img/other/image-03.webp" type="image/webp"><img src="img/other/image-03.png" alt="image"></picture>
+							</div>
+						</div>
+						<div class="other__item item-other">
+							<div class="item-other__content">
+								<h4 class="item-other__title">
+									Займ для бизнеса
+								</h4>
+								<div class="item-other__text text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+									magna
+									aliqua
+								</div>
+								<a href="#" class="item-other__btn btn">Подробнее</a>
+							</div>
+							<div class="item-other__image">
+								<picture><source srcset="img/other/image-04.webp" type="image/webp"><img src="img/other/image-04.png" alt="image"></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__row">
+					<div class="footer__content">
+						<div class="footer__content-body">
+							<a href="#" class="footer__logo logo">
+								<div class="logo__row">
+									<div class="logo__image">
+										<img src="img/logo-mob.svg" alt="logo">
+									</div>
+									<h4 class="logo__title">Залоговое Кредитование под ПТС, недвижимость</h4>
+								</div>
+							</a>
+							<div data-da=".footer__policy, 479.98, last" class="footer__text text">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+									aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+									aliqua.
+								</p>
+
+								<p>
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum
+									dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+									ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit
+									amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+									veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="footer__menu-content">
+						<nav class="footer__menu menu-footer">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Займ под ПТС</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Займ для бизнеса</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Займ под авто</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Займ под спецтехнику</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Займ под недвижимость</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Рефинансирование (перезалог)</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="footer__menu-bottom">
+							<nav class="footer__menu-dop dop-menu">
+								<ul class="dop-menu__list">
+									<li class="dop-menu__item">
+										<a href="#" class="dop-menu__link">О компании</a>
+									</li>
+									<li class="dop-menu__item">
+										<a href="#" class="dop-menu__link">Документы</a>
+									</li>
+									<li class="dop-menu__item">
+										<a href="#" class="dop-menu__link">Контакты</a>
+									</li>
+								</ul>
+							</nav>
+							<div class="footer__contacts">
+								По сотрудничеству:
+								<a href="mailto:no-replay@test.com">no-replay@test.com</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__policy">
+					<a href="#">Политика конфиденциальности</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<img src="img/icons/cross.svg" alt="icon">
+				</button>
+				<div class="popup__title">Онлайн-заявка</div>
+				<div class="popup__form">
+					<div class="popup__input">
+						<input type="text" class="input" placeholder="Ваше имя">
+					</div>
+					<div class="popup__input">
+						<input type="text" class="input input_tel" placeholder="Ваш телефон">
+					</div>
+					<div class="popup__privacy">
+						<span>Согласен с <a href="#">политикой обработки</a> персональных данных</span>
+					</div>
+					<div class="popup__btn-wrap"><button class="popup__btn btn">Отправить</button></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="region" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<img src="img/icons/cross.svg" alt="icon">
+				</button>
+				<div class="popup__title">Выберите город</div>
+				<ul class="popup__regions">
+					<li class="popup__region">
+						<a href="#">Абакан</a>
+					</li>
+					<li class="popup__region">
+						<a href="#">Барнаул</a>
+					</li>
+					<li class="popup__region">
+						<a href="#">Екатеринбург</a>
+					</li>
+					<li class="popup__region">
+						<a href="#">Кемерово</a>
+					</li>
+
+					<li class="popup__region">
+						<a href="#">Красноярск</a>
+					</li>
+					<li class="popup__region">
+						<a href="#">Томск</a>
+					</li>
+					<li class="popup__region">
+						<a href="#">Челябинск</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20231103175052"></script>
+</body>
+
+</html>
